@@ -1,0 +1,513 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+}
+body
+{
+    overflow-x: hidden;
+} 
+.navbar
+{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    background-color: black;
+}
+.nav
+{
+    width: 100%;
+    height: 60px;
+    background-color: whitesmoke;
+    
+}
+.navtitle
+{
+    width: 200px;
+}
+.navtext
+{
+    display: flex;
+    font-weight: 700;
+    font-size: 1.3rem;
+   
+}
+/* .navtext:hover{
+    color: white;
+} */
+.user
+{
+    color:black;
+}
+.user:hover{
+    color: white;
+}
+.text{
+   position: absolute;
+   left: 40px;
+   font-size: 1.5rem;
+   font-weight: 700;
+   margin-top: 23px;
+   
+    
+}
+.icon
+{
+   
+    position: absolute;
+    right: 3%;
+    top: 4%;
+    width: 30px;
+    height: 26px;
+}
+.icon1
+{
+    position: absolute;
+    right: 1%;
+    top: 4.5%;
+    font-size: 1.25rem;
+}
+.hero
+{
+    width: 1520px;
+    height: 500px;
+}
+.hero2
+{
+    width: 1520px;
+    height: 400px;
+}
+.achero
+{
+    width: 1520px;
+    height: 300px;
+}
+.acbackground
+{
+    width: 1520px;
+    height: 300px;
+    overflow: hidden;
+}
+.background
+{   width: 1520px;
+    height: 500px;
+    overflow: hidden;
+    /* background-image: url(galaxy.jpg);
+    border-radius: 5px;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+    object-fit: cover; */
+
+}
+.background1
+{
+    width: 1520px;
+    height: 450px;
+    overflow: hidden;
+}
+.partiton
+{
+    width: 1520px;
+    height: 120px;
+    overflow: hidden;
+}
+.anotherpart
+{
+    width: 1520px;
+    height: 170px;
+}
+.anotherback
+{   position: absolute;
+    top: 2415px;
+    width: 1520px;
+    height: 170px;
+    overflow: hidden;
+}
+.another
+{
+    width: 1520px;
+    height: 170px;
+    object-fit: cover;
+}
+.vid
+{
+    width: 1520px;
+    height: 120px;
+    overflow: hidden;
+}
+.partvid
+{
+    width: 1520px;
+    height: 120px;
+    top: 0;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+    object-fit: cover;
+}
+.img
+{   
+    width: 1520px;
+    height: 500px;
+    top: 0;
+    padding: 0;
+    border: 0;
+    margin-right: 30px;
+    overflow: hidden;
+    object-fit: cover;
+    user-select: all;
+    
+}
+.acimg
+{   overflow: hidden;
+    width: 1520px;
+    height: 300px;
+    padding: 0;
+    border: 0;
+    object-fit: cover;
+}
+.intro
+{
+    position: absolute;
+    top: 140px;
+    left: 624px;
+    align-items: center;
+    justify-content: center;
+    font-size: 6.5rem;
+    font-weight: 700;
+    color: white;
+}
+.acintro
+{
+    position: absolute;
+    top: 180px;
+    left: 549px;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    color: white;
+}
+.intro1
+
+{
+    position: absolute;
+    top: 250px;
+    left: 603px;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.6rem;
+    font-weight: 700;
+    color: white;
+
+}
+.acintro1
+{
+    position: absolute;
+    top: 250px;
+    left: 450px;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+}
+.container
+{
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+    width: 380px;
+    height: 150px;
+    position: absolute;
+    top: 300px;
+    left:555px ;
+}
+.containerhey
+{
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+    width: 780px;
+    height: 360px;
+    position: absolute;
+    top: 710px;
+    left:350px ;
+}
+.boxtxt
+{
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+
+}
+.introbut
+{
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 2px solid black;
+    color: white;
+    font-weight: 700;
+    width: 105px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 129px;
+    font-size: 0.8rem;
+     transition: 450ms;
+     
+}
+.introbut1
+{
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 2px solid black;
+    color: white;
+    font-weight: 700;
+    width: 105px;
+    height: 40px;
+    margin-top: 7px;
+    margin-left: 320px;
+    font-size: 0.8rem;
+     transition: 450ms; 
+}
+.introbut:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    transform: scale(1.08);
+    border: 2px solid white;
+  
+}
+.introbut1:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    transform: scale(1.08);
+    border: 2px solid white;
+}
+.about
+{
+    padding-top: 10px;
+    font-size: 1.27rem;
+    color: white;
+}
+.buttons
+{
+    position: absolute;
+    top: 460px;
+    left: 439px;
+    display: flex;
+    gap: 50%;
+
+}
+.options
+{
+    border-radius: 50%;
+    width: 100px;
+    height: 90px;
+    
+}
+.options1
+{
+    background-color: black;
+    color: green;
+    font-weight: 700;
+    font-size: 0.78rem;
+    border: 1px solid white;
+    transition: 450ms;
+
+}
+.options2
+{
+    background-color: lightgray;
+    color: white;
+    font-weight: 700;
+    font-size: 0.8rem;
+    border: 2px solid lightcoral;
+    transition: 450ms;
+}
+.options3
+{   background-color:lightgreen;
+    color: black;
+    font-weight: 700;
+    font-size: 0.8rem;
+    border: 1px solid gold;
+    transition: 450ms;
+
+}
+.options1:hover{
+    background-color: lightgray;
+    color: white;
+    border: 2px solid black;
+}
+.options2:hover{
+    background-color: lightcoral;
+    color: white;
+    border: 2px solid white;
+}
+.options3:hover{
+    background-color: pink;
+    color: white;
+    border: 2px solid white;
+}
+.links
+{
+    color: white;
+}
+.links:hover{
+    color: black;
+    text-decoration: none;
+}
+.one{
+    margin-top: 10px;
+    color: black;
+    font-size: 1.27rem;
+    font-weight: 700;
+    text-align: center;
+}
+.box
+{
+    position: absolute;
+    background-color: black;
+    border: 1px solid white;
+    width: 1200px;
+    height: 2110px;
+    top: 300px;
+    left: 10%;
+    
+}
+.certi1
+{
+    width: 400px;
+    height: 300px;
+}
+.certi2
+{
+    width: 400px;
+    height: 300px;
+}
+.certi3
+{
+    position: absolute;
+    left: 720px;
+    top: 400px;
+    width: 400px;
+    height: 300px;
+}
+.certi
+{   position: absolute;
+    left: 80px;
+    top: 40px;
+    width: 400px;
+    height: 300px;
+}
+.certitext
+{
+    position: absolute;
+    color: white;
+    left: 585px;
+    top: 150px;
+    font-size: 3.2rem;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.certitext2
+{
+    position: absolute;
+    color: white;
+    left: 540px;
+    top: 895px;
+    font-size: 3.2rem;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.certi4
+{
+    width: 400px;
+    height: 300px;
+}
+.certi8
+{
+    width: 400px;
+    height: 300px;
+}
+.certi9
+{
+    position: absolute;
+    left: 80px;
+    top: 1460px;
+    width: 400px;
+    height: 300px;
+}
+.certi6
+{
+    width: 400px;
+    height: 300px;
+}
+.certi5
+{
+    position: absolute;
+    left: 80px;
+    top: 760px;
+    width: 400px;
+    height: 300px;
+}
+.certi7
+{
+    position: absolute;
+    left: 720px;
+    top: 1100px;
+    width: 400px;
+    height: 300px;
+}
+.certitext3
+{
+    position: absolute;
+    color: white;
+    left: 90px;
+    top: 1240px;
+    font-size: 3.2rem;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.certitext1
+{
+    position: absolute;
+    color: white;
+    left: 50px;
+    top: 530px;
+    font-size: 3.2rem;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.certitext4
+{
+    position: absolute;
+    color: white;
+    left: 615px;
+    top: 1595px;
+    font-size: 3.2rem;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.certi10
+{
+    width: 400px;
+    height: 300px;
+}
+.certi11
+{
+    position: absolute;
+    left: 720px;
+    top: 1800px;
+    width: 400px;
+    height: 300px;
+}
+.certitext5
+{
+    position: absolute;
+    color: white;
+    left: 50px;
+    top: 1940px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
